@@ -1,7 +1,10 @@
 .app-container {
+  margin-top:8%;
   background-color: #f3f3fb;
-  min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: flex-start;
+  /* justify-content: center; */
   align-items: center;
+  flex-wrap: wrap;
+  padding-left:3%;
 }
