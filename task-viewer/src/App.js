@@ -60,62 +60,16 @@ function App() {
   ];
 
   return (
-		<div className="app-container">
+	<div className="app-container">
+		{data.map((item) => (
 			<TaskCard
-				id={data[0].id}
-				status={data[0].status}
-				name={data[0].name}
-				dueDate={data[0].dueDate}
+				id={item.id}
+				status={item.status}
+				name={item.name}
+				dueDate={item.dueDate}
 			/>
-			<TaskCard
-				id={data[1].id}
-				status={data[1].status}
-				name={data[1].name}
-				dueDate={data[1].dueDate}
-			/>
-			<TaskCard
-				id={data[2].id}
-				status={data[2].status}
-				name={data[2].name}
-				dueDate={data[2].dueDate}
-			/>
-			<TaskCard
-				id={data[3].id}
-				status={data[3].status}
-				name={data[3].name}
-				dueDate={data[3].dueDate}
-			/>
-			<TaskCard
-				id={data[4].id}
-				status={data[4].status}
-				name={data[4].name}
-				dueDate={data[4].dueDate}
-			/>
-			<TaskCard
-				id={data[5].id}
-				status={data[5].status}
-				name={data[5].name}
-				dueDate={data[5].dueDate}
-			/>
-			<TaskCard
-				id={data[6].id}
-				status={data[6].status}
-				name={data[6].name}
-				dueDate={data[6].dueDate}
-			/>
-			<TaskCard
-				id={data[7].id}
-				status={data[7].status}
-				name={data[7].name}
-				dueDate={data[7].dueDate}
-			/>
-			<TaskCard
-				id={data[8].id}
-				status={data[8].status}
-				name={data[8].name}
-				dueDate={data[8].dueDate}
-			/>
-		</div>
+		))}
+	</div>
   );
 }
 
