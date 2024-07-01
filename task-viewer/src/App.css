@@ -1,0 +1,10 @@
+.app-container {
+  margin-top:8%;
+  background-color: #f3f3fb;
+  display: flex;
+  flex-direction: flex-start;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left:3%;
+}
