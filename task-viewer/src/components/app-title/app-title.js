@@ -1,6 +1,6 @@
 import "./app-title.css";
 
-function Title(props) {
+function Title() {
 	return (
 		<div className="title">
 
