@@ -1,4 +1,5 @@
-import "./app-title.css";
+import "./AppTitle.css";
+import React from "react";
 
 function Title() {
 	return (

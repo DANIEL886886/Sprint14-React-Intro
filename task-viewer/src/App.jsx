@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
-import { data } from "./components/app-data/data";
-import TaskList from "./components/task-list/task-list";
+import { data } from "./components/AppData/Data";
+import TaskList from "./components/TaskList/TaskList";
 
 function App() {
 
