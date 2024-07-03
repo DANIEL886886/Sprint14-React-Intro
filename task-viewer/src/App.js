@@ -1,22 +1,13 @@
 import "./App.css";
-import TaskCard from "./components/task-card/TaskCard";
-import {data} from "./components/app-data/data"
+import { data } from "./components/app-data/data";
+import TaskList from "./components/task-list/task-list";
 
 function App() {
 
-  return (
-	<div className="app-container">
-		{data.map((props, index) => (
-			<TaskCard
-				key={index}
-				id={props.id}
-				status={props.status}
-				name={props.name}
-				dueDate={props.dueDate}
-			/>
-		))}
-	</div>
-  );
+	return (
+		<TaskList tasklist={data} />
+	);
+
 }
 
 export default App;
