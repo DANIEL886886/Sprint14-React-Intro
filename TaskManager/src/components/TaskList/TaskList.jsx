@@ -1,4 +1,5 @@
-import TaskCard from "../task-card/TaskCard";
+import TaskCard from "../TaskCard/TaskCard";
+import React from "react";
 
 function TaskList(props) {
 

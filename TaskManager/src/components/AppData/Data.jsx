@@ -1,3 +1,5 @@
+import React from "react";
+
 export const data = [
 	{
 		id: "T-0",
@@ -49,6 +51,12 @@ export const data = [
 	},
 	{
 		id: "T-8",
+		name: "Implement a new authentication system for Enum Workspace.",
+		status: "In Progress",
+		dueDate: new Date(2022, 9, 29),
+	},
+	{
+		id: "T-9",
 		name: "Implement a new authentication system for Enum Workspace.",
 		status: "In Progress",
 		dueDate: new Date(2022, 9, 29),
